@@ -20,15 +20,19 @@
 
             <hr>
 
-            <h1>Vegetables</h1>
+            <h1 onclick="changeText(this)">Vegetables</h1>
             <ul id='vegetable-list'>
                 <li>Carrot</li>
                 <li>Potato</li>
                 <li>Celery</li>
                 <li>Turnip</li>
-
             </ul>
 
+
+                <input class="input" id='vegetable-input' type="text">
+                <button class="button is-primary is-outlined" onclick="addVegetable(this)">Add another vegetable.</button>
+  
+            
             <img id="container-image" src="" alt="">
       </div>
     </div>
