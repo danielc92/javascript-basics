@@ -19,6 +19,4 @@ git clone https//link.to.this.projects.git-repo
 - Daniel Corcoran
 
 # Sources
-- [DOM Intro](https://www.w3schools.com/js/js_htmldom.asp)
-- []
-- []
+- [w3schools](https://www.w3schools.com/)
