@@ -40,7 +40,6 @@ node.appendChild(textnode);
 document.getElementById('vegetable-list').appendChild(node);
 
 
-
 // Function to change text on click of Vegetable title
 
 function changeText(id) {
@@ -64,3 +63,18 @@ function addVegetable(id) {
     document.getElementById('vegetable-list').appendChild(node);
     
 }
+
+
+// Returning cookies from document
+cookies = document.cookie;
+document.getElementById('document-cookies').innerHTML = cookies;
+
+
+// Returning title from document
+title = document.title;
+document.getElementById('document-title').innerHTML = title;
+
+
+// Returning domain from document
+domain = document.domain;
+document.getElementById('document-domain').innerHTML = domain;
